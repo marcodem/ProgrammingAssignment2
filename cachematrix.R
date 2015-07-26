@@ -8,7 +8,8 @@
 # So I see the function definition like a C++ class definition that includes its
 # constructor method and some private variables encapsulated within the object,
 # including getter/setter functions to read/write these private variables.
-# The return value of the "constructor" is a vector object reference.
+# The return value of the "constructor" is a vector object reference, no: rather a list with
+# the getter/setter functions that are accessible in the global environment.
 # Once a mean was calculated it is stored within the vector object itself in the
 # private variable m.
 #  (I am still unsure about the '<<-' operator: does it assign a value to a variable
